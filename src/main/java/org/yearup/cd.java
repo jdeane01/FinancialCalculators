@@ -20,7 +20,6 @@ public class cd {
             double futureValue = deposit * Math.pow(1 + interestRate, years);
 
             System.out.printf("Future Deposit Value: $%.2f", futureValue);
-            System.out.println();
             System.out.printf("Interest Earned: $%.2f", (futureValue - deposit));
         }
 }
